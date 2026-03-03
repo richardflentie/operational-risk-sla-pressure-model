@@ -1,5 +1,4 @@
 # Operational Risk SLA Pressure Monitoring Framework
-![Executive Overview](screenshots/executive-overview.jpg)
 
 ## 📌 Overview
 This project develops a risk-based monitoring framework for identifying SLA compliance pressure, remediation backlog growth, and escalation risk across business units and owners.
@@ -81,3 +80,26 @@ This framework enables:
 - DAX
 - Risk-weighted modeling logic
 - Governance-focused KPI design
+
+- ## 📈 Risk-Adjusted Priority Scoring Logic
+
+A custom prioritization model was developed to improve transparency and defensibility over the provided dataset score.
+
+The Risk-Adjusted Priority Score incorporates:
+
+- Risk severity weighting (Low–Critical)
+- Overdue escalation multiplier
+- Aging exposure factor
+
+This enables leadership to identify issues most likely to escalate into operational or regulatory risk.
+
+## 🗣 Executive Framing
+
+If presenting this dashboard to leadership, I would focus on:
+
+- Concentration of overdue issues by business unit
+- Sustained positive net issue growth trends
+- 90+ day exposure as a leading indicator of control breakdown
+- Escalation prioritization using risk-adjusted scoring
+
+The objective is proactive remediation before SLA breaches evolve into regulatory or operational impact.
