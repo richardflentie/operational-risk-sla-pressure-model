@@ -1,4 +1,5 @@
 # Operational Risk SLA Pressure Monitoring Framework
+![Executive Overview](screenshots/executive-overview.jpg)
 
 ## 📌 Overview
 This project develops a risk-based monitoring framework for identifying SLA compliance pressure, remediation backlog growth, and escalation risk across business units and owners.
